@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-green-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="sm:text-2xl text-white text-base font-bold">
+                <a href="#">Veterinaria Rey León</a>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="../index.html" class="text-white hover:text-gray-400">Inicio</a>
+                <a href="./productos.html" class="text-white hover:text-gray-400">Productos</a>
+                <a href="./servicios.html" class="text-white hover:text-gray-400">Servicios</a>
+                <a href="./consejos.html" class="text-white hover:text-gray-400">Consejos y Guías</a>
+                <a href="./contacto.html" class="text-white hover:text-gray-400">Contacto</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-white">☰</button>
+            </div>
+        </div>
+    </nav>
+    <section class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900">Contáctanos</h2>
+            <p class="mt-4 text-lg leading-6 text-gray-500">
+                ¿Tienes preguntas o necesitas una cita? ¡Estamos aquí para ayudarte!
+            </p>
+        </div>
+
+        <div class="mt-12 flex flex-col md:flex-row justify-between">
+
+            <div class="md:w-1/2 text-black-700">
+                <h3 class="text-2xl font-semibold mb-4 text-center">Información de Contacto</h3>
+                <p><strong>Teléfono:</strong> 0997537821</p>
+                <p><strong>Email:</strong> rey_leon_vet@gmail.com</p>
+                <p class="mt-4"><strong>Dirección:</strong></p>
+                <p class="mx-3">Calle Avenida de la República, Huaquillas, Ecuador</p>
+                <p><strong>Horario de Atención:</strong></p>
+                <p class="mx-3">Lunes - Viernes: 9:00 AM - 6:00 PM</p>
+                <p class="mx-3">Sábados: 9:00 AM - 1:00 PM</p>
+            </div>
+
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <form action="#" method="POST" class="bg-white p-8 shadow-md rounded-lg">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
+                        <input type="text" id="name" name="name"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            placeholder="Tu nombre">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            placeholder="Tu email">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+
+                    <div class="mt-6">
+                        <button type="submit"
+                            class="w-full bg-blue-900 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                            Enviar Mensaje
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <p class="text-center">© 2024 Veterinaria. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
